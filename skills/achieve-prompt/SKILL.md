@@ -6,6 +6,20 @@ description: >-
 metadata:
   version: "4.0.0"
   author: "Augmented Intelligence Engineering"
+  framework: "A.C.H.I.E.V.E."
+  tags:
+    - achieve-prompt
+    - human-augmentation
+    - augmented-intelligence
+    - ice-prioritization
+    - ideation-and-creativity
+    - team-coordination
+    - safety-net-audit
+    - skeptical-auditor
+    - exoskeleton-for-the-mind
+    - agentskills-io
+    - claude-code
+    - hermes-agent
 ---
 
 # A.C.H.I.E.V.E. Prompt Architect Skill
