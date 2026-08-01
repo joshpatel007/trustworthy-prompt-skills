@@ -22,11 +22,11 @@ These skills transform AI from an unpredictable text generator into a secure, lo
 Before loading these skills, ensure your preferred AI terminal runtime is installed. Select your operating system below:
 
 | Tool | macOS / Linux | Windows (PowerShell / WinGet) |
-| : --- | : --- | : --- |
-| **Claude Code** | `curl -fsSL https://claude.ai/install.sh | bash` | `irm https://claude.ai/install.ps1 | iex`<br>*or* `winget install Anthropic.ClaudeCode` |
-| **OpenAI Codex CLI** | `curl -fsSL https://chatgpt.com/codex/install.sh | sh` | `powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"' |
-| **Google Antigravity** | `curl -fsSL https://antigravity.google/cli/install.sh | bash` | `pip install google-antigravity` |
-| **Hermes Agent** | `curl -fsSL https://hermes-agent.ai/install.sh | bash` | WSL2 (Ubuntu) recommended |
+| :--- | :--- | :--- |
+| **Claude Code** | `curl -fsSL https://claude.ai/install.sh &#124; bash` | `irm https://claude.ai/install.ps1 &#124; iex`<br>_or_ `winget install Anthropic.ClaudeCode` |
+| **OpenAI Codex CLI** | `curl -fsSL https://chatgpt.com/codex/install.sh &#124; sh` | `powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 &#124; iex"` |
+| **Google Antigravity** | `curl -fsSL https://antigravity.google/cli/install.sh &#124; bash` | `pip install google-antigravity` |
+| **Hermes Agent** | `curl -fsSL https://hermes-agent.ai/install.sh &#124; bash` | WSL2 (Ubuntu) recommended |
 
 ---
 
