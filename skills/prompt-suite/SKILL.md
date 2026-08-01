@@ -6,8 +6,21 @@ description: >-
 metadata:
   version: "3.0.0"
   author: "Trustworthy AI Engineering"
+  framework: "Multi-Agent Pipeline Orchestrator"
+  tags:
+    - prompt-suite
+    - master-orchestrator
+    - skill-router
+    - multi-agent-pipeline
+    - hybrid-prompts
+    - task-decomposition
+    - prompt-engineering
+    - trustworthy-ai
+    - agentskills-io
+    - claude-code
+    - hermes-agent
+    - codex-cli
 ---
-
 # Master Prompt-Suite Orchestrator
 
 ## Routing & Decision Protocol
