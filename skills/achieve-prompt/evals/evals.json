@@ -1,0 +1,20 @@
+[
+  {
+    "id": "coordination-conflict-check",
+    "prompt": "Create a prompt to analyze two conflicting meeting notes for room size and IT requirements.",
+    "expected_output": "System prompt catching venue and hardware conflicts.",
+    "assertions": [
+      "Explicitly audits room layout contradictions",
+      "Outputs actionable JSON task assignment schema"
+    ]
+  },
+  {
+    "id": "skeptical-auditor-check",
+    "prompt": "Create a prompt that acts as a skeptic to my slide deck and asks 10 hard questions.",
+    "expected_output": "Skeptical persona prompt targeting underlying assumptions.",
+    "assertions": [
+      "Enforces 'Skeptical Auditor' role",
+      "Generates 10 challenge questions"
+    ]
+  }
+]

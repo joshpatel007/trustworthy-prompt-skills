@@ -18,6 +18,51 @@ These skills transform AI from an unpredictable text generator into a secure, lo
 
 ### Installing in Hermes Agent
 Clone this repository directly into your local skills folder:
-```bash
-git clone [https://github.com/joshpatel007/trustworthy-prompt-skills.git](https://github.com/joshpatel007/trustworthy-prompt-skills.git) ~/.hermes/skills/
+\`\`\`bash
+git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git ~/.hermes/skills/
 hermes skill list
+\`\`\`
+
+### Installing in Claude Code
+\`\`\`bash
+cp -r skills/* ~/.claude/skills/
+\`\`\`
+
+### Installing in Copilot / Agent Runtimes
+\`\`\`bash
+cp -r skills/* ~/.agents/skills/
+\`\`\`
+
+---
+
+## 💡 Usage Examples
+
+### Example 1: Multi-Task Pipeline (`prompt-suite`)
+\`\`\`bash
+/prompt-suite --task "Task 1: Filter 1,000 SOC alerts and provide alert ID citations. Task 2: Direct users to the vulnerability screen for sensitive details. Task 3: Brainstorm incident response scenarios with an ICE matrix."
+\`\`\`
+
+### Example 2: Sensitive Data Protection (`reasoning-prompt`)
+\`\`\`bash
+/reasoning-prompt --task "Guide patients to their appointment scheduler screen without generating sensitive medical details directly" --mode navigation
+\`\`\`
+
+### Example 3: Human Augmentation & Idea Curation (`achieve-prompt`)
+\`\`\`bash
+/achieve-prompt --task "Brainstorm 10 ways to register workshop attendees and provide an ICE prioritization matrix" --pillar inspire
+\`\`\`
+
+---
+
+## 🔬 Evals & Benchmarks
+
+Each skill includes an `evals/evals.json` benchmark suite enforcing:
+1. `[DATA_GAP]` fallback clauses when input data is incomplete.
+2. Reframing high-risk medical/legal decisions into doctor/lawyer diagnostic checklists.
+3. XML Sandboxing (`<source_data>`) to prevent prompt injection.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. Contributions and pull requests are welcome!

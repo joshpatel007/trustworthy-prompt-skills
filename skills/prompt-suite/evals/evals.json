@@ -1,0 +1,12 @@
+[
+  {
+    "id": "hybrid-pipeline-check",
+    "prompt": "Audit threat logs for brute force indicators, verify facts with quotes, and assign follow-up action items to the SOC team without plan ambiguity.",
+    "expected_output": "2-Stage hybrid prompt pipeline combining reasoning-prompt and achieve-prompt.",
+    "assertions": [
+      "Generates Stage 1 Precision System Prompt",
+      "Generates Stage 2 Augmentation System Prompt",
+      "Passes JSON checksum between Stage 1 and Stage 2"
+    ]
+  }
+]
