@@ -2,10 +2,16 @@
 name: reasoning-prompt
 description: >-
   Generates adaptive, low-hallucination system prompts using the R.E.A.S.O.N. framework. 
-  Supports Fact Navigation, Cheap Verification, Sandboxed Filtering with Line Citations, and UI Navigation Patterns.
+  Supports Fact Navigation, Cheap Verification, Sandboxed Filtering, and UI Navigation Patterns.
 metadata:
   version: "6.0.0"
   author: "Trustworthy AI Engineering"
+  tags:
+    - prompt-engineering
+    - ai-safety
+    - fact-navigation
+    - RAG
+    - anti-hallucination
 ---
 
 # R.E.A.S.O.N. Prompt Architect Skill
