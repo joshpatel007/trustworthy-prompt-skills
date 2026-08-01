@@ -23,10 +23,10 @@ Before loading these skills, ensure your preferred AI terminal runtime is instal
 
 | Tool | macOS / Linux | Windows (PowerShell / WinGet) |
 | :--- | :--- | :--- |
-| **Claude Code** | `curl -fsSL https://claude.ai/install.sh &#124; bash` | `irm https://claude.ai/install.ps1 &#124; iex`<br>_or_ `winget install Anthropic.ClaudeCode` |
-| **OpenAI Codex CLI** | `curl -fsSL https://chatgpt.com/codex/install.sh &#124; sh` | `powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 &#124; iex"` |
-| **Google Antigravity** | `curl -fsSL https://antigravity.google/cli/install.sh &#124; bash` | `pip install google-antigravity` |
-| **Hermes Agent** | `curl -fsSL https://hermes-agent.ai/install.sh &#124; bash` | WSL2 (Ubuntu) recommended |
+| **Claude Code** | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`curl -fsSL https://claude.ai/install.sh \| bash` | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`irm https://claude.ai/install.ps1 \| iex`<br>_or_ `winget install Anthropic.ClaudeCode` |
+| **OpenAI Codex CLI** | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`curl -fsSL https://chatgpt.com/codex/install.sh \| sh` | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 \| iex"` |
+| **Google Antigravity** | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`curl -fsSL https://antigravity.google/cli/install.sh \| bash` | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git`<br>`pip install google-antigravity` |
+| **Hermes Agent** | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git ~/.hermes/skills/`<br>`curl -fsSL https://hermes-agent.ai/install.sh \| bash` | `git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git "$HOME\.hermes\skills\"`<br>WSL2 (Ubuntu) recommended |
 
 ---
 
