@@ -16,16 +16,16 @@ These skills transform AI from an unpredictable text generator into a secure, lo
 
 ## 🚀 Quick Installation
 
+### Installing in Claude Code
+\`\`\`bash
+cp -r skills/* ~/.claude/skills/
+\`\`\`
+
 ### Installing in Hermes Agent
 Clone this repository directly into your local skills folder:
 \`\`\`bash
 git clone https://github.com/joshpatel007/trustworthy-prompt-skills.git ~/.hermes/skills/
 hermes skill list
-\`\`\`
-
-### Installing in Claude Code
-\`\`\`bash
-cp -r skills/* ~/.claude/skills/
 \`\`\`
 
 ### Installing in Copilot / Agent Runtimes
